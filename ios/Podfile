@@ -24,6 +24,13 @@ target 'rn797' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  # Depending on the used Ondato flow, you may want to add some of the following pods.
+  # Please refer to the documentation for more details:
+  # https://github.com/ondato/ondato-sdk-react-native?tab=readme-ov-file#optional-features
+  pod 'OndatoNFC', '= 3.2.2'
+  pod 'OndatoAutocapture', '= 3.2.2'
+  pod 'OndatoScreenRecorder', '= 3.2.2'
+
   post_install do |installer|
     # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202
     react_native_post_install(
