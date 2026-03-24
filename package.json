@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "ondato-sdk-react-native": "https://github.com/ondato/ondato-sdk-react-native/releases/download/3.3.1/osrn-v3.3.1.tgz",
     "react": "19.0.0",
     "react-native": "0.79.7"
   },
