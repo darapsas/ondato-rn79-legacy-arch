@@ -8,6 +8,9 @@ PODS:
   - hermes-engine (0.79.7):
     - hermes-engine/Pre-built (= 0.79.7)
   - hermes-engine/Pre-built (0.79.7)
+  - OndatoAutocapture (3.2.2)
+  - OndatoNFC (3.2.2)
+  - OndatoScreenRecorder (3.2.2)
   - OndatoSDK (3.2.2)
   - OndatoSdkReactNative (3.3.1):
     - DoubleConversion
@@ -1691,6 +1694,9 @@ DEPENDENCIES:
   - fmt (from `../node_modules/react-native/third-party-podspecs/fmt.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
+  - OndatoAutocapture (= 3.2.2)
+  - OndatoNFC (= 3.2.2)
+  - OndatoScreenRecorder (= 3.2.2)
   - OndatoSdkReactNative (from `../node_modules/ondato-sdk-react-native`)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
@@ -1760,6 +1766,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - OndatoAutocapture
+    - OndatoNFC
+    - OndatoScreenRecorder
     - OndatoSDK
     - SocketRocket
 
@@ -1916,6 +1925,9 @@ SPEC CHECKSUMS:
   fmt: a40bb5bd0294ea969aaaba240a927bd33d878cdd
   glog: 5683914934d5b6e4240e497e0f4a3b42d1854183
   hermes-engine: 13c84524b3b6e884b2cf3b3b1e002ffd147d88a3
+  OndatoAutocapture: 07a6c2b46150c6386a2e62773843bd9d634714fd
+  OndatoNFC: 8fe8cba7bdf7ec7160f04297165c1ae1a80d5b4d
+  OndatoScreenRecorder: 61d7ad43d00599b568eb9d4c39fcefe05862aa4b
   OndatoSDK: 12306945c6aace0cbc6db3579208c69d26f32a4d
   OndatoSdkReactNative: bc1c2c9d2cbb5d57d0b642b5caa269e444f2b556
   RCT-Folly: e78785aa9ba2ed998ea4151e314036f6c49e6d82
@@ -1983,6 +1995,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: 7ec3c34208133557b95850966446f48c6b3fa468
 
-PODFILE CHECKSUM: 552050e01f82337ca53b767f49180d76a1d56f76
+PODFILE CHECKSUM: 0ff22171c46cf8b3bdea1422f4c70fce2bd90917
 
 COCOAPODS: 1.15.2
