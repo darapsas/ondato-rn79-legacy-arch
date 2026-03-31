@@ -5159,9 +5159,9 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-"ondato-sdk-react-native@https://github.com/ondato/ondato-sdk-react-native/releases/download/3.3.1/osrn-v3.3.1.tgz":
-  version "3.3.1"
-  resolved "https://github.com/ondato/ondato-sdk-react-native/releases/download/3.3.1/osrn-v3.3.1.tgz#d30fff4bf2033ca0b1cf7acb9871db35ace1eef1"
+"ondato-sdk-react-native@https://github.com/ondato/ondato-sdk-react-native/releases/download/3.4.0/osrn-v3.4.0.tgz":
+  version "3.4.0"
+  resolved "https://github.com/ondato/ondato-sdk-react-native/releases/download/3.4.0/osrn-v3.4.0.tgz#2a1dc32694f915f30a02540981dce56260a452f1"
   dependencies:
     fs-extra "^11.3.2"
     lodash "^4.17.21"

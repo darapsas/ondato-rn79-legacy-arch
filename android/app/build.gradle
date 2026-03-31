@@ -114,9 +114,9 @@ dependencies {
     // Depending on the used Ondato flow, you may want to add some of the following pods.
     // Please refer to the documentation for more details:
     // https://github.com/ondato/ondato-sdk-react-native?tab=readme-ov-file#optional-features
-    implementation("com.kyc.ondato:nfc-reader:3.3.2")
-    implementation("com.kyc.ondato:screen-recorder:3.3.2")
-    implementation("com.kyc.ondato:document-autoresolver:3.3.2")
+    implementation("com.kyc.ondato:nfc-reader:3.4.0")
+    implementation("com.kyc.ondato:screen-recorder:3.4.0")
+    implementation("com.kyc.ondato:document-autoresolver:3.4.0")
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
